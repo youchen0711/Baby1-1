@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CarMainActivity">
+    tools:context=".AniMainActivity">
 
     <ImageButton
         android:id="@+id/ani1_btn"
@@ -12,23 +12,23 @@
         android:layout_height="80dp"
         android:onClick="playSound1"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/sha4_btn"
+        app:layout_constraintBottom_toTopOf="@+id/ani4_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ani2_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.426"
-        app:srcCompat="@drawable/ambulance" />
+        app:srcCompat="@drawable/ani1" />
 
     <TextView
         android:id="@+id/ani1_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="救護車"
+        android:text="貓"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha2_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani2_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ani1_btn" />
@@ -40,149 +40,149 @@
         android:onClick="playSound2"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toStartOf="@+id/sha3_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani3_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
-        app:srcCompat="@drawable/bicycle" />
+        app:srcCompat="@drawable/ani2" />
 
     <TextView
-        android:id="@+id/sha2_text"
+        android:id="@+id/ani2_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="腳踏車"
+        android:text="狗"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha3_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani3_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani1_btn"
         app:layout_constraintTop_toBottomOf="@+id/ani2_btn" />
 
     <ImageButton
-        android:id="@+id/sha3_btn"
+        android:id="@+id/ani3_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound3"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toStartOf="@+id/sha8_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani8_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ani2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
-        app:srcCompat="@drawable/bus" />
+        app:srcCompat="@drawable/ani3" />
 
     <TextView
-        android:id="@+id/sha3_text"
+        android:id="@+id/ani3_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="公車"
+        android:text="無尾熊"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha8_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani8_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha2_text"
-        app:layout_constraintTop_toBottomOf="@+id/sha3_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani2_text"
+        app:layout_constraintTop_toBottomOf="@+id/ani3_btn" />
 
     <ImageButton
-        android:id="@+id/sha4_btn"
+        android:id="@+id/ani4_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound5"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/sha7_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani7_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/firetruck" />
+        app:srcCompat="@drawable/ani4" />
 
     <TextView
-        android:id="@+id/sha4_text"
+        android:id="@+id/ani4_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="消防車"
+        android:text="老鼠"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha7_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani7_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sha4_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/ani4_btn" />
 
     <ImageButton
-        android:id="@+id/sha5_btn"
+        android:id="@+id/ani5_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound7"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/sha6_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani6_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha7_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani7_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/police" />
+        app:srcCompat="@drawable/ani5" />
 
     <TextView
-        android:id="@+id/sha5_text"
+        android:id="@+id/ani5_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="警察車"
+        android:text="貓頭鷹"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha6_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani6_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha7_text"
-        app:layout_constraintTop_toBottomOf="@+id/sha5_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani7_text"
+        app:layout_constraintTop_toBottomOf="@+id/ani5_btn" />
 
     <ImageButton
-        android:id="@+id/sha6_btn"
+        android:id="@+id/ani6_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound8"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha5_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani5_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/taxi" />
+        app:srcCompat="@drawable/ani6" />
 
     <TextView
-        android:id="@+id/sha6_text"
+        android:id="@+id/ani6_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="計程車"
+        android:text="豹"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha5_text"
-        app:layout_constraintTop_toBottomOf="@+id/sha6_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani5_text"
+        app:layout_constraintTop_toBottomOf="@+id/ani6_btn" />
 
     <ImageButton
-        android:id="@+id/sha7_btn"
+        android:id="@+id/ani7_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound6"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/sha5_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani5_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha4_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani4_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/motorcycle" />
+        app:srcCompat="@drawable/ani7" />
 
     <TextView
-        android:id="@+id/sha7_text"
+        android:id="@+id/ani7_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="摩托車"
+        android:text="企鵝"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/sha5_text"
+        app:layout_constraintEnd_toStartOf="@+id/ani5_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha4_text"
-        app:layout_constraintTop_toBottomOf="@+id/sha7_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani4_text"
+        app:layout_constraintTop_toBottomOf="@+id/ani7_btn" />
 
     <ImageButton
-        android:id="@+id/sha8_btn"
+        android:id="@+id/ani8_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound4"
@@ -190,22 +190,22 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha3_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani3_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
-        app:srcCompat="@drawable/whitecar" />
+        app:srcCompat="@drawable/ani8" />
 
     <TextView
-        android:id="@+id/sha8_text"
+        android:id="@+id/ani8_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="轎車"
+        android:text="老虎"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/sha3_text"
-        app:layout_constraintTop_toBottomOf="@+id/sha8_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani3_text"
+        app:layout_constraintTop_toBottomOf="@+id/ani8_btn" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

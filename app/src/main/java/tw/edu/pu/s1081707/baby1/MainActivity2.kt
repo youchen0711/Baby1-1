@@ -25,5 +25,21 @@ class MainActivity2 : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+
+        imgsha.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                intent = Intent(this@MainActivity2, ShaMainActivity::class.java)
+                startActivity(intent)
+            }
+        })
+
+        imgani.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                intent = Intent(this@MainActivity2, AniMainActivity::class.java)
+                startActivity(intent)
+            }
+        })
+
+
     }
 }

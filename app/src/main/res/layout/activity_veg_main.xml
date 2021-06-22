@@ -7,14 +7,14 @@
     tools:context=".VegMainActivity">
 
     <ImageButton
-        android:id="@+id/veg1_btn"
+        android:id="@+id/ani1_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound1"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/veg4_btn"
+        app:layout_constraintBottom_toTopOf="@+id/sha4_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/veg2_btn"
+        app:layout_constraintEnd_toStartOf="@+id/ani2_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,131 +22,131 @@
         app:srcCompat="@drawable/veg1" />
 
     <TextView
-        android:id="@+id/veg1_text"
+        android:id="@+id/ani1_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="馬鈴薯"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg2_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha2_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/veg1_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/ani1_btn" />
 
     <ImageButton
-        android:id="@+id/veg2_btn"
+        android:id="@+id/ani2_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound2"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toStartOf="@+id/veg3_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha3_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg1_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
         app:srcCompat="@drawable/veg2" />
 
     <TextView
-        android:id="@+id/veg2_text"
+        android:id="@+id/sha2_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="瓠瓜"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg3_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha3_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg1_btn"
-        app:layout_constraintTop_toBottomOf="@+id/veg2_btn" />
+        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ani2_btn" />
 
     <ImageButton
-        android:id="@+id/veg3_btn"
+        android:id="@+id/sha3_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound3"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toStartOf="@+id/veg8_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha8_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg2_btn"
+        app:layout_constraintStart_toEndOf="@+id/ani2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/veg3" />
 
     <TextView
-        android:id="@+id/veg3_text"
+        android:id="@+id/sha3_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="番茄"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg8_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha8_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg2_text"
-        app:layout_constraintTop_toBottomOf="@+id/veg3_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha2_text"
+        app:layout_constraintTop_toBottomOf="@+id/sha3_btn" />
 
     <ImageButton
-        android:id="@+id/veg4_btn"
+        android:id="@+id/sha4_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound4"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/veg7_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha7_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:srcCompat="@drawable/veg4" />
 
     <TextView
-        android:id="@+id/veg4_text"
+        android:id="@+id/sha4_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="白菜"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg7_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha7_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/veg4_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/sha4_btn" />
 
     <ImageButton
-        android:id="@+id/veg5_btn"
+        android:id="@+id/sha5_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound5"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/veg6_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha6_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg7_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha7_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:srcCompat="@drawable/veg5" />
 
     <TextView
-        android:id="@+id/veg5_text"
+        android:id="@+id/sha5_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="洋蔥"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg6_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha6_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg7_text"
-        app:layout_constraintTop_toBottomOf="@+id/veg5_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha7_text"
+        app:layout_constraintTop_toBottomOf="@+id/sha5_btn" />
 
     <ImageButton
-        android:id="@+id/veg6_btn"
+        android:id="@+id/sha6_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound6"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg5_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha5_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:srcCompat="@drawable/veg6" />
 
     <TextView
-        android:id="@+id/veg6_text"
+        android:id="@+id/sha6_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="南瓜"
@@ -154,35 +154,35 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg5_text"
-        app:layout_constraintTop_toBottomOf="@+id/veg6_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha5_text"
+        app:layout_constraintTop_toBottomOf="@+id/sha6_btn" />
 
     <ImageButton
-        android:id="@+id/veg7_btn"
+        android:id="@+id/sha7_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound7"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/veg5_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha5_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg4_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha4_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:srcCompat="@drawable/veg7" />
 
     <TextView
-        android:id="@+id/veg7_text"
+        android:id="@+id/sha7_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="紅椒"
         android:textAlignment="center"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/veg5_text"
+        app:layout_constraintEnd_toStartOf="@+id/sha5_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg4_text"
-        app:layout_constraintTop_toBottomOf="@+id/veg7_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha4_text"
+        app:layout_constraintTop_toBottomOf="@+id/sha7_btn" />
 
     <ImageButton
-        android:id="@+id/veg8_btn"
+        android:id="@+id/sha8_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound8"
@@ -190,13 +190,13 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg3_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha3_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/veg8" />
 
     <TextView
-        android:id="@+id/veg8_text"
+        android:id="@+id/sha8_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="花椰菜"
@@ -204,8 +204,8 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/veg3_text"
-        app:layout_constraintTop_toBottomOf="@+id/veg8_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha3_text"
+        app:layout_constraintTop_toBottomOf="@+id/sha8_btn" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

@@ -15,11 +15,10 @@
 
     <ImageButton
         android:id="@+id/imgvagetable"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgsha"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgcar"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,14 +26,59 @@
 
     <ImageButton
         android:id="@+id/imgcar"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:scaleType="fitStart"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/imgvagetable"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/car" />
+
+    <ImageButton
+        android:id="@+id/imgsha"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgvagetable"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shape" />
+
+    <ImageButton
+        android:id="@+id/imgani"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imgcol"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/ani" />
+
+    <ImageButton
+        android:id="@+id/imgcol"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imgele"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgani"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/col" />
+
+    <ImageButton
+        android:id="@+id/imgele"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgcol"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/ele" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
