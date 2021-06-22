@@ -1,6 +1,5 @@
 package tw.edu.pu.s1081707.baby1
 
-import android.media.AudioAttributes
 import android.media.AudioManager
 import android.media.SoundPool
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +8,8 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_car_main.*
 
-class CarMainActivity : AppCompatActivity() {
+class VegMainActivity : AppCompatActivity() {
+
     private var soundPool1: SoundPool? = null
     private val soundId = 1
 
@@ -29,33 +29,31 @@ class CarMainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_car_main)
+        setContentView(R.layout.activity_veg_main)
 
         soundPool1 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool1!!.load(baseContext, R.raw.ambutlance_mc, 0)
+        soundPool1!!.load(baseContext, R.raw.vegmc1, 0)
 
         soundPool2 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool2!!.load(baseContext, R.raw.carmc2, 1)
+        soundPool2!!.load(baseContext, R.raw.vegmc2, 1)
 
         soundPool3 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool3!!.load(baseContext, R.raw.carmc3, 3)
+        soundPool3!!.load(baseContext, R.raw.vegmc3, 3)
 
         soundPool4 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool4!!.load(baseContext, R.raw.carmc4, 4)
+        soundPool4!!.load(baseContext, R.raw.vegmc4, 4)
 
         soundPool5 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool5!!.load(baseContext, R.raw.carmc5, 5)
+        soundPool5!!.load(baseContext, R.raw.vegmc5, 5)
 
         soundPool6 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool6!!.load(baseContext, R.raw.carmc6, 6)
+        soundPool6!!.load(baseContext, R.raw.vegmc6, 6)
 
         soundPool7 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool7!!.load(baseContext, R.raw.carmc7, 7)
+        soundPool7!!.load(baseContext, R.raw.vegmc7, 7)
 
         soundPool8 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
-        soundPool8!!.load(baseContext, R.raw.carmc8, 8)
-
-
+        soundPool8!!.load(baseContext, R.raw.vegmc8, 8)
     }
 
     fun playSound1(view: View) {

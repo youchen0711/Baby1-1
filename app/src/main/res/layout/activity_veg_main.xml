@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CarMainActivity">
+    tools:context=".VegMainActivity">
 
     <ImageButton
         android:id="@+id/veg1_btn"
@@ -19,13 +19,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.426"
-        app:srcCompat="@drawable/ambulance" />
+        app:srcCompat="@drawable/veg1" />
 
     <TextView
         android:id="@+id/veg1_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="救護車"
+        android:text="馬鈴薯"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg2_text"
@@ -45,13 +45,13 @@
         app:layout_constraintStart_toEndOf="@+id/veg1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
-        app:srcCompat="@drawable/bicycle" />
+        app:srcCompat="@drawable/veg2" />
 
     <TextView
         android:id="@+id/veg2_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="腳踏車"
+        android:text="瓠瓜"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg3_text"
@@ -71,13 +71,13 @@
         app:layout_constraintStart_toEndOf="@+id/veg2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
-        app:srcCompat="@drawable/bus" />
+        app:srcCompat="@drawable/veg3" />
 
     <TextView
         android:id="@+id/veg3_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="公車"
+        android:text="番茄"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg8_text"
@@ -89,19 +89,19 @@
         android:id="@+id/veg4_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:onClick="playSound5"
+        android:onClick="playSound4"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/veg7_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/firetruck" />
+        app:srcCompat="@drawable/veg4" />
 
     <TextView
         android:id="@+id/veg4_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="消防車"
+        android:text="白菜"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg7_text"
@@ -113,19 +113,19 @@
         android:id="@+id/veg5_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:onClick="playSound7"
+        android:onClick="playSound5"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/veg6_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/veg7_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/police" />
+        app:srcCompat="@drawable/veg5" />
 
     <TextView
         android:id="@+id/veg5_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="警察車"
+        android:text="洋蔥"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg6_text"
@@ -137,19 +137,19 @@
         android:id="@+id/veg6_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:onClick="playSound8"
+        android:onClick="playSound6"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/veg5_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/taxi" />
+        app:srcCompat="@drawable/veg6" />
 
     <TextView
         android:id="@+id/veg6_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="計程車"
+        android:text="南瓜"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -161,19 +161,19 @@
         android:id="@+id/veg7_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:onClick="playSound6"
+        android:onClick="playSound7"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/veg5_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/veg4_btn"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/motorcycle" />
+        app:srcCompat="@drawable/veg7" />
 
     <TextView
         android:id="@+id/veg7_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="摩托車"
+        android:text="紅椒"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/veg5_text"
@@ -185,7 +185,7 @@
         android:id="@+id/veg8_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
-        android:onClick="playSound4"
+        android:onClick="playSound8"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -193,13 +193,13 @@
         app:layout_constraintStart_toEndOf="@+id/veg3_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
-        app:srcCompat="@drawable/whitecar" />
+        app:srcCompat="@drawable/veg8" />
 
     <TextView
         android:id="@+id/veg8_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="轎車"
+        android:text="花椰菜"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

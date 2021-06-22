@@ -18,5 +18,12 @@ class MainActivity2 : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+
+        imgvagetable.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                intent = Intent(this@MainActivity2, VegMainActivity::class.java)
+                startActivity(intent)
+            }
+        })
     }
 }
