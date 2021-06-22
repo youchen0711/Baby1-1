@@ -53,32 +53,8 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/imgcol"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:srcCompat="@drawable/ani" />
-
-    <ImageButton
-        android:id="@+id/imgcol"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/imgele"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imgani"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/col" />
-
-    <ImageButton
-        android:id="@+id/imgele"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imgcol"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/ele" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
