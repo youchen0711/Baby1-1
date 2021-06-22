@@ -7,14 +7,14 @@
     tools:context=".CarMainActivity">
 
     <ImageButton
-        android:id="@+id/ani1_btn"
+        android:id="@+id/sha1_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound1"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/sha4_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ani2_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sha2_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/ambulance" />
 
     <TextView
-        android:id="@+id/ani1_text"
+        android:id="@+id/sha1_text"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="救護車"
@@ -31,10 +31,10 @@
         app:layout_constraintEnd_toStartOf="@+id/sha2_text"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ani1_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/sha1_btn" />
 
     <ImageButton
-        android:id="@+id/ani2_btn"
+        android:id="@+id/sha2_btn"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:onClick="playSound2"
@@ -42,7 +42,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/sha3_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414"
         app:srcCompat="@drawable/bicycle" />
@@ -56,8 +56,8 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/sha3_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ani1_btn"
-        app:layout_constraintTop_toBottomOf="@+id/ani2_btn" />
+        app:layout_constraintStart_toEndOf="@+id/sha1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/sha2_btn" />
 
     <ImageButton
         android:id="@+id/sha3_btn"
@@ -68,7 +68,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/sha8_btn"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ani2_btn"
+        app:layout_constraintStart_toEndOf="@+id/sha2_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/bus" />

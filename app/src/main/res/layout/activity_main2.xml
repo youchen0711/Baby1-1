@@ -11,18 +11,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="150dp" />
+        app:layout_constraintGuide_begin="285dp" />
 
     <ImageButton
         android:id="@+id/imgvagetable"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/imgsha"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgcar"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vagatable" />
+        app:srcCompat="@drawable/veg" />
 
     <ImageButton
         android:id="@+id/imgcar"
@@ -34,7 +35,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/car" />
 
     <ImageButton
@@ -42,19 +42,23 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/imgani"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgvagetable"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shape" />
+        app:srcCompat="@drawable/sha" />
 
     <ImageButton
         android:id="@+id/imgani"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:scaleType="centerInside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgsha"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ani" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
