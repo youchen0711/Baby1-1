@@ -10,11 +10,14 @@
         android:id="@+id/background1"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sandy" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back11" />
 
     <TextView
         android:id="@+id/title"
@@ -33,6 +36,8 @@
         android:layout_height="wrap_content"
         android:text="教學"
         android:textSize="36sp"
+        android:background="@drawable/text_color"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +49,8 @@
         android:layout_height="wrap_content"
         android:text="小遊戲"
         android:textSize="36sp"
+        android:background="@drawable/text_color"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"

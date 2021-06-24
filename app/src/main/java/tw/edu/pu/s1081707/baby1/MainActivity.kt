@@ -18,5 +18,12 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        btn2.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                intent = Intent(this@MainActivity, GameMainActivity::class.java)
+                startActivity(intent)
+            }
+        })
+
     }
 }
