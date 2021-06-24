@@ -10,6 +10,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_car_main.*
 
 class CarMainActivity : AppCompatActivity() {
+
     private var soundPool1: SoundPool? = null
     private val soundId = 1
 
@@ -30,6 +31,13 @@ class CarMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_main)
+
+        button.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                finish()
+
+            }
+        })
 
         soundPool1 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
         soundPool1!!.load(baseContext, R.raw.ambutlance_mc, 0)

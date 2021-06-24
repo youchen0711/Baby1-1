@@ -30,6 +30,12 @@ class VegMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_veg_main)
+        button.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                finish()
+
+            }
+        })
 
         soundPool1 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
         soundPool1!!.load(baseContext, R.raw.vegmc1, 0)

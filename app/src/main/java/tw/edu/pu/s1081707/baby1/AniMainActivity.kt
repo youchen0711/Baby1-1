@@ -30,6 +30,12 @@ class AniMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ani_main)
+        button.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(p0: View?) {
+                finish()
+
+            }
+        })
 
         soundPool1 = SoundPool(6, AudioManager.STREAM_MUSIC, 0)
         soundPool1!!.load(baseContext, R.raw.animc1, 0)
